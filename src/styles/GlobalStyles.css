@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Manrope, sans-serif;
+    font-weight: 800;
+}
+
+:root{
+    --light-cyan--clr: hsl(193, 38%, 86%);
+    --neon-green--clr: hsl(150, 100%, 66%);
+
+    --grayish-blue--clr: hsl(218, 20%, 24%);
+    --dark-grayish-blue--clr: hsl(220, 23%, 16%);
+}
